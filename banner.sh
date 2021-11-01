@@ -42,7 +42,7 @@ then
         false
 else
         echo " Resultado de acesso em Https $RESULTHTTPS_XPOWEREDBY"
-        echo $WEBSITEHTTPS "-" RESULTHTTPS_XPOWEREDBY >> BANNER-LIST.txt
+        echo $WEBSITEHTTPS "-" $RESULTHTTPS_XPOWEREDBY >> BANNER-LIST.txt
 fi
 echo ""
 done <"$input"
